@@ -14,7 +14,7 @@ int main()
 
     //Задание 1
 
-    const char* myString = "Оппенгеймер";
+    const char* myString = "Шварценеггер!";
     int length = mystrlen(myString);
     cout << "Длина строки: " << length << endl;
 
