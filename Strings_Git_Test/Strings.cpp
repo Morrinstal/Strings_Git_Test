@@ -15,22 +15,7 @@ int mystrlen(const char* str)
     return length;
 }
 
-void mystrcpy_s(char*& str, int& size, const char* str2)
-{
-    int strrr = strlen(str2);
-    if (strrr >= size)
-    {
-        strrr = size - 1;
-    }
-    char* Str = new char[size];
-    for (int i = 0; i < strrr; i++)
-    {
-        Str[i] = str2[i];
-    }
-    Str[strrr] = '\0';
-    delete[] str;
-    str = Str;
-}
+
 
 void mystrcat_s(char*& str1, int& size1, const char* str2)
 {
