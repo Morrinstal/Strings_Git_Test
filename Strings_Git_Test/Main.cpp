@@ -10,6 +10,8 @@ int main()
     system("chcp 1251");
     system("cls");
 
+    cout << "1 commit test" << endl;
+
     //Задание 1
 
     const char* myString = "Оппенгеймер";
