@@ -5,8 +5,6 @@ using namespace std;
 
 int mystrlen(const char* str); //-функция определяет длину строки.
 
-void  mystrcpy_s(char*& str1, int& size1, const char* str2); //-функция копирует строку str2 в буфер, адресуемый через str1.
-
 void mystrcat_s(char*& str1, int& size1, const char* str2);///-функция присоединяет строку str2 к строке str1 треба перевіряти щоб буфер був потрібного розміру БЕЗПЕЧНА ВЕРСІЯ
 
 char* mystrchr(const char* str, char s);// -функция осуществляет поиск символа s в строке str.Функция возвращает указатель на первое вхождение символа в строку, в противном случае 0.
